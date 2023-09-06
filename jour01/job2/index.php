@@ -25,7 +25,7 @@ function my_str_reverse(string $string): string
 // Exemple d'utilisation de la fonction
 $chaine = 'Hello';
 $attendu = 'olleH';
-$resultat = my_str_reverse($chaine) === $attendu;
+$resultat = my_str_reverse($chaine);
 
 // Afficher le résultat (facultatif, selon les instructions)
 var_dump($resultat);
