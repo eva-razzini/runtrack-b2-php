@@ -8,8 +8,8 @@ function my_is_multiple(int $divider, int $multiple): bool
 }
 
 // Exemples d'utilisation de la fonction
-$resultat1 = my_is_multiple(2, 4) === true;
-$resultat2 = my_is_multiple(2, 5) === false;
+$resultat1 = my_is_multiple(2, 4);
+$resultat2 = my_is_multiple(2, 5);
 
 // Afficher les résultats (facultatif, selon les instructions)
 var_dump($resultat1);
