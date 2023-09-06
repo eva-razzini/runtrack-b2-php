@@ -36,10 +36,13 @@ function my_closest_to_zero(array $array): int
 }
 
 // Exemple d'utilisation de la fonction
-$array = [5, -3, 2, -8, 1];
+$array = [2, -1, 5, 23, 21, 9];
+$array1 = [234, -142, 512, 1223, 451, -59];
 $resultat = my_closest_to_zero($array);
+$resultat1 = my_closest_to_zero($array1);
 
 // Afficher le résultat (facultatif, selon les instructions)
 echo "Le nombre le plus proche de zéro est : $resultat";
+echo "Le nombre le plus proche de zéro est : $resultat1";
 
 ?>
