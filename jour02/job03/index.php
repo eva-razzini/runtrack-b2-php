@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="input-birthdate">Date de naissance :</label>
         <input type="date" id="input-birthdate" name="input-birthdate" required><br><br>
 
-        <label for="input-grade_id">ID de la note :</label>
+        <label for="input-grade_id">ID du grade :</label>
         <input type="number" id="input-grade_id" name="input-grade_id" required><br><br>
 
         <input type="submit" value="Ajouter">

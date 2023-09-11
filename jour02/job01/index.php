@@ -1,5 +1,5 @@
 <?php
-// Connexion à la base de données (à adapter selon votre configuration)
+// Connexion à la base de données
 $servername = "localhost";
 $username = "pma";
 $password = "plomkiplomki";
@@ -37,7 +37,7 @@ $conn->close();
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Liste des Étudiants</title>
+    <title>Document</title>
 </head>
 <body>
     <h1>Liste des Étudiants</h1>
@@ -49,7 +49,6 @@ $conn->close();
             <th>Nom</th>
             <th>Date anniversaire</th>
             <th>Genre</th>
-            <!-- Ajoutez ici d'autres colonnes de la table student -->
         </tr>
         <?php foreach ($students as $student) : ?>
             <tr>
@@ -59,7 +58,6 @@ $conn->close();
                 <td><?= $student['fullname'] ?></td>
                 <td><?= $student['birthdate'] ?></td>
                 <td><?= $student['gender'] ?></td>
-                <!-- Ajoutez ici d'autres colonnes de la table student -->
             </tr>
         <?php endforeach; ?>
     </table>
